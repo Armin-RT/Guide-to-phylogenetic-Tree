@@ -1,0 +1,30 @@
+
+#All of these codes can simply be pasted into a Linux terminal (such as ubuntu virtual machine)
+#Before Blasting
+
+#Install BlastnPackage 
+Sudo apt-get install Blastn 
+
+#Create one big fasta file from a folder with subfolders with tons of fna files (fasta format sequences inside them) 
+sed '' DataForexamensarbete/*/*.fna > all_sequences.fna 
+
+#cat DataForexamensarbete/*/*.fna > all_sequences.fna (quicker but does not  need to create extraline necessary if those don’t exist) 
+
+ 
+
+#Build database  
+makeblastdb -in bigdatabasefile.filename -dbtype nucl -out my_database_name 
+
+#blastn in beginning -> nucleotide database against nucleotide query 
+#tblastn in beginning > protein query against nucleotide database 
+
+#Outfmt 6 can be used to get coordinate formate, 0 is used to see query vs sequence) 
+#t-blastn needs 0.001 and word size 6 
+#-num_threads 4 add this to make it go quicker 
+
+ 
+
+#Blast Code 
+blastn -query NameofQuery.fileformat -db mydatabaseName -out results.txt -outfmt 0 -evalue 0.01 -word_size 10 -num_threads 4 
+
+#
