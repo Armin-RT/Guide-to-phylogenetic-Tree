@@ -28,10 +28,14 @@ transeq -sequence Example.txt -outseq outputp.txt
 Alignment
 -use MACSE to align sequences
 -Remove any more unnecessary sequences
+-Code
+java -jar macse_v2.07.jar -prog alignSequences -seq file.fasta
 
 Iqtree
 -Run Iqtree with 1000 boostrap replicates
 -Generate the Tree
+Code
+-Iqtree2 -s - BB 1000
 
 Analyze Data
 -Count amount of fusspoks in each strain  (some strains have to be manually added)
