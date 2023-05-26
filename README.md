@@ -7,10 +7,14 @@ Get sequences
 -Make a Database
 
 Tblast
--Run Tblast
+-Run Tblast (use script from blast file directly in the terminal)
 
 -Stitch up Tblasted results 
+
 -Retrive haplotype
+
+obs: These 2 scripts dont require changes in the file, for adding input file in, but you can just write the name of it when you run script
+ex: python3 BLASTstitcher.py results.txt   
 
 
 Reverse complement
