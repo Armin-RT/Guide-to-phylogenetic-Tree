@@ -8,8 +8,10 @@ Get sequences
 
 Tblast
 -Run Tblast
--Stitch up Tblasted results
+
+-Stitch up Tblasted results 
 -Retrive haplotype
+
 
 Reverse complement
 -Get sequences that are in wrong direction from stitched tblast
