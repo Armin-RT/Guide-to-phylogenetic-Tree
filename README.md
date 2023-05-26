@@ -38,5 +38,6 @@ Code
 -Iqtree2 -s - BB 1000
 
 Analyze Data
--Count amount of fusspoks in each strain  (some strains have to be manually added)
--Count how many fusspoks in genomic locations in some strains (some have to be added manually) – then 
+-  first grab all the names of all the sequences before counting
+-Count amount of fusspoks in each strain  (some strains have to be manually added,)
+-Count how many fusspoks in genomic locations in some strains (some have to be added manually) – one also has to categorize the parts of the names of the data in excel
