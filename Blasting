@@ -27,4 +27,5 @@ makeblastdb -in bigdatabasefile.filename -dbtype nucl -out my_database_name
 #Blast Code 
 blastn -query NameofQuery.fileformat -db mydatabaseName -out results.txt -outfmt 0 -evalue 0.01 -word_size 10 -num_threads 4 
 
-#
+#Count hits in the blast
+grep -v '^#' blast_output.txt | wc -l
