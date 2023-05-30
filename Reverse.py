@@ -39,7 +39,7 @@ def write_fasta_file(output_file_path, sequences):
 
 
 # Input FASTA file path
-input_file_path = 'Neghap.txt'
+input_file_path = 'Negatativehap.txt'
 
 # Output FASTA file path
 output_file_path = 'RevHaplotyp2.txt'
