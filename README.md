@@ -49,3 +49,9 @@ Analyze Data
 -  first grab all the names of all the sequences before counting
 -Count amount of fusspoks in each strain  (some strains have to be manually added,)
 -Count how many fusspoks in genomic locations in some strains (some have to be added manually) – one also has to categorize the parts of the names of the data in excel
+
+
+
+More:
+Make a list of all the sequence names: grep -oP '^>\K.*' your_fasta_file.fasta > sequence_names.txt
+Count sequences: grep -c 'Fusarium' sequence_names.txt
