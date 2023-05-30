@@ -28,6 +28,7 @@ Reverse complement
 Remove pseudogenes
 -Translate to protein 
 transeq -sequence Example.txt -outseq outputp.txt 
+
 -Remove them with premature proteins
 -Create file with the asequences with matching names as the proteins that are left
 
