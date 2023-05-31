@@ -45,6 +45,8 @@ Iqtree
 Code
 -Iqtree2 -s - BB 1000
 
+
+
 Analyze Data
 -  first grab all the names of all the sequences before counting
 -Count amount of fusspoks in each strain  (some strains have to be manually added,)
