@@ -26,6 +26,7 @@ Reverse complement
 
 
 Remove pseudogenes
+
 -Translate to protein 
 transeq -sequence CombinedHaplotyps.txt -outseq outputp.txt
 
